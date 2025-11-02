@@ -5,7 +5,7 @@
 
   color-scheme: light;
   color: #333;
-  background-color: #EBF4FF; 
+  background-color: linear-gradient(to bottom, #EBF4FF, #ffffff);
 }
 
 body {
