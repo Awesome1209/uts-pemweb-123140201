@@ -2,10 +2,10 @@ import React from 'react';
 
 const styles = `
   .detail-card {
-    background: #FFFFFF; /* Latar belakang card putih */
+   background: linear-gradient(to bottom, #a7c7e7, #ffffff);
     padding: 1.8rem;
     border-radius: 20px;
-    border: 1px solid #DDE8F3; /* Border soft blue */
+    border: 1px solid #DDE8F3;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.04);
   }
 
@@ -43,20 +43,20 @@ const styles = `
     font-size: 4.5rem;
     font-weight: 700;
     line-height: 1;
-    color: #002D62; /* Teks biru gelap */
+    color: #002D62; 
   }
 
   .temp-unit {
     font-size: 2rem;
     vertical-align: top;
     margin-left: 0.25rem;
-    color: #1E5A93; /* Teks biru sedang */
+    color: #1E5A93;
   }
 
   .weather-desc {
     font-size: 1.25rem;
     text-transform: capitalize;
-    color: #1E5A93; /* Teks biru sedang */
+    color: #1E5A93; 
     font-weight: 500;
     margin: 0;
   }
@@ -70,7 +70,7 @@ const styles = `
   }
 
   .detail-item {
-    background: #F0F7FF; /* Latar soft blue */
+    background: linear-gradient(to bottom, #a7c7e7, #ffffff);
     padding: 1.2rem;
     border-radius: 15px;
     border: 1px solid #DDE8F3; /* Border soft blue */
@@ -136,5 +136,6 @@ const DetailCard = ({ data, unit }) => {
     </>
   );
 };
+
 
 export default DetailCard;
