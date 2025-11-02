@@ -1,0 +1,31 @@
+.App {
+  width: 100%;
+  max-width: 800px; 
+  padding: 0;
+  background: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.main-layout {
+  display: grid;
+  grid-template-columns: 1fr; 
+  gap: 1.5rem; 
+}
+
+.status-info {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 1.5rem;
+  border-radius: 20px;
+  background: #FFFFFF;
+  color: #1E5A93; 
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.status-info.error {
+  background: #fff0f0;
+  color: #d93025;
+  border: 1px solid #d93025;
+}
