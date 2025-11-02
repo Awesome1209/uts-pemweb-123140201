@@ -2,7 +2,7 @@ import React from 'react';
 
 const styles = `
   .data-table-section {
-    background: #FFFFFF; /* Latar belakang card putih */
+    background: linear-gradient(to bottom, #a7c7e7, #ffffff);
     padding: 1.5rem;
     border-radius: 20px;
     border: 1px solid #DDE8F3; /* Border soft blue */
@@ -36,7 +36,7 @@ const styles = `
   }
 
   .data-table-section table th {
-    background-color: #FFFFFF;
+    background: linear-gradient(to bottom, #a7c7e7, #ffffff);
     font-size: 0.9rem;
     font-weight: 500;
     color: #6699CC; /* Teks header biru muda */
@@ -49,7 +49,7 @@ const styles = `
   }
 
   .data-table-section table tbody tr:hover {
-    background-color: #F0F7FF; /* Latar soft blue saat hover */
+    background: linear-gradient(to bottom, #a7c7e7, #ffffff);
     cursor: default;
   }
 
@@ -126,5 +126,6 @@ const DataTable = ({ data, unit }) => {
     </>
   );
 };
+
 
 export default DataTable;
