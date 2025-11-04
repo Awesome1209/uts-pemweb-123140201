@@ -16,26 +16,19 @@ Aplikasi ini adalah dashboard cuaca berbasis ReactJS (Vite) yang memungkinkan pe
 
 Semua fitur wajib dari ketentuan telah terpenuhi:
 * **Pencarian Kota:** Form input dengan ikon *search* untuk mencari cuaca berdasarkan nama kota.
-  ![Menampilkan Dashboard](p2_Dashboard.png)
   
 * **Autocomplete History:** *Search bar* otomatis memberikan sugesti dari riwayat pencarian sebelumnya.
-  ![Menampilkan Dashboard](p2_Dashboard.png)
   
 * **Riwayat Pencarian:** Menampilkan daftar kota yang pernah dicari di bawah *search bar*.
-  ![Menampilkan Dashboard](p2_Dashboard.png)
   
 * **Hapus Riwayat:** Terdapat tombol "Hapus" untuk membersihkan riwayat pencarian (`localStorage`).
-  ![Menampilkan Dashboard](p2_Dashboard.png)
   
 * **Cuaca Saat Ini:** Menampilkan kartu detail cuaca saat ini, lengkap dengan **Icon**, **Temperature**, **Humidity**, dan **Wind Speed**.
-  ![Menampilkan Dashboard](p2_Dashboard.png)
 
 * **Forecast 5 Hari:** Menampilkan **tabel prakiraan cuaca** untuk 5 hari ke depan.
-  ![Menampilkan Dashboard](p2_Dashboard.png)
   
 * **Toggle Unit:** Dilengkapi *icon switch interface* yang modern untuk mengganti satuan suhu antara **Celsius (°C)** dan **Fahrenheit (°F)**.
-  ![Menampilkan Dashboard](p2_Dashboard.png)
-  
+---
 
 ## 🛠️ Tech Stack
 
@@ -45,6 +38,7 @@ Semua fitur wajib dari ketentuan telah terpenuhi:
 * **HTTP Client:** Fetch API (Async/Await)
 * **API:** OpenWeatherMap API
 * **Deployment:** Vercel
+---
 
 ## 📦 Cara Instalasi dan Menjalankan
 
