@@ -6,6 +6,8 @@ Ini adalah proyek Ujian Tengah Semester untuk mata kuliah Pengembangan Aplikasi 
 - **NIM:** `123140201`
 - **Link Deployment Vercel:** `https://uts-pemweb-123140201.vercel.app/`
 
+![Menampilkan Dashboard](utsweb.png)
+
 ---
 
 ## 🚀 Deskripsi Project
